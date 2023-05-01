@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="std.css" />
+    <link
+      rel="icon"
+      type="Photo/Beho.jpg"
+      sizes="32*32"
+      href="Photo/Beho.jpg"
+    />
+    <title>Ahmed Bahaa</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="container">
+      <video class="video__loop" autoplay muted loop>
+        <source src="video/video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+
+        <input id="menu" class="burger-menu__checkbox" type="checkbox">
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <!-- <li><a href="#" class="navigation__link navigation__media">Media</a></li> -->
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <!-- <li>
+              <a
+                href="#volunteer"
+                class="navigation__link navigation__volunteer"
+                >I'm Volunteer</a
+              >
+            </li> -->
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <!-- toggle -->
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <!-- The Bio section -->
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">Hi There, I'm A Frontend Developer</h1>
+          <p class="bio__objactive">
+            My name is <span class="bio__name">Ahmed BahaaEldin</span>,Publish
+            content on
+            <a
+              href="https://twitter.com/ahmsocialmedia"
+              class="bio__twitter"
+              target="_blank"
+              title="My page on twitter😎"
+              >twitter</a
+            >,<a
+              href="https://www.facebook.com/ahmed.bhaa.777158/"
+              class="bio__facebook"
+              target="_blank"
+              title="My page on Facebook😎"
+              >facebook</a
+            >,
+            <a
+              href="https://www.linkedin.com/in/ahmedbahaaeldin-ali/"
+              class="bio__linkedin"
+              target="_blank"
+              title="My page on Linkedin😎"
+              >Linkedin</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say_hi_link">Say hi</a>
+          <a href="#" class="bio__links find_out_link"
+            >Download CV <span class="bio__arrow">&darr;</span></a
+          >
+        </div>
+        <div class="bio__photo-content">
+          <img
+            src="Photo/ahmed.png"
+            alt="photo of ahmed bahaa"
+            class="bio__photo"
+            id="photo"
+          />
+        </div>
+      </section>
+
+      <!-- skills section -->
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skils__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__experince">8 Monthes</span>
+          </li>
+          <li class="skils__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__experince">8 Monthes</span>
+          </li>
+          <li class="skils__item">
+            <h2 class="skills__title">JavaScript</h2>
+            <span class="skills__experince">2 Monthes</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Project section -->
+      <section id="projects" class="project section section--with-bg">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <div class="project__style">
+          <div class="project__card">
+            <div class="project__img">
+              <img src="Project image/form_01.png" alt="form_01" />
+            </div>
+            <div class="project__info">
+              <p class="project__data">simple form and background</p>
+              <strong class="project__title">
+                <span>Form</span>
+                <a
+                  href="https://a7medpro.github.io/simple_form/"
+                  class="more__details"
+                  target="_blank"
+                  >GitHub_Rebo <img src="brand/github.svg" alt="GitHub__icon"
+                /></a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <img src="Project image/QR Code.jpg" alt="QR Code" />
+            </div>
+            <div class="project__info">
+              <p class="project__data">Simple QR Code</p>
+              <strong class="project__title">
+                <span>QR Code</span>
+                <a
+                  href="https://a7medpro.github.io/Simple-QR-code/"
+                  class="more__details"
+                  target="_blank"
+                  >GitHub_Rebo <img src="brand/github.svg" alt="GitHub__icon"
+                /></a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <img src="Project image/grad-design.jpg" alt="QR Code" />
+            </div>
+            <div class="project__info">
+              <p class="project__data">three-column-card</p>
+              <strong class="project__title">
+                <span>Three-Column</span>
+                <a
+                  href="https://a7medpro.github.io/three-column-preview-card/"
+                  class="more__details"
+                  target="_blank"
+                  >GitHub_Rebo <img src="brand/github.svg" alt="GitHub__icon"
+                /></a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <img src="Project image/project grad.png" alt="QR Code" />
+            </div>
+            <div class="project__info">
+              <p class="project__data">Testimonials_grid_section</p>
+              <strong class="project__title">
+                <span>grid_section</span>
+                <a
+                  href="https://a7medpro.github.io/Testimonials_grid_section/"
+                  class="more__details"
+                  target="_blank"
+                  >GitHub_Rebo <img src="brand/github.svg" alt="GitHub__icon"
+                /></a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <img src="Project image/form_02.png" alt="QR Code" />
+            </div>
+            <div class="project__info">
+              <p class="project__data">simple form and background</p>
+              <strong class="project__title">
+                <span>Form_01</span>
+                <a
+                  href="https://a7medpro.github.io/Form_1/"
+                  class="more__details"
+                  target="_blank"
+                  >GitHub_Rebo <img src="brand/github.svg" alt="GitHub__icon"
+                /></a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <img src="Project image/Web-design-1.jpg" alt="QR Code" />
+            </div>
+            <div class="project__info">
+              <p class="project__data">News-home-page</p>
+              <strong class="project__title">
+                <span>News-page</span>
+                <a
+                  href="https://a7medpro.github.io/News-home-page/"
+                  class="more__details"
+                  target="_blank"
+                  >GitHub_Rebo <img src="brand/github.svg" alt="GitHub__icon"
+                /></a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <img src="Project image/Screen.png" alt="QR Code" />
+            </div>
+            <div class="project__info">
+              <p class="project__data">four_card_feature_section</p>
+              <strong class="project__title">
+                <span>four_card</span>
+                <a
+                  href="https://a7medpro.github.io/four-card_feature-section/"
+                  class="more__details"
+                  target="_blank"
+                  >GitHub_Rebo <img src="brand/github.svg" alt="GitHub__icon"
+                /></a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <img src="Project image/preview-fylo.jpg" alt="QR Code" />
+            </div>
+            <div class="project__info">
+              <p class="project__data">fylo page with two column</p>
+              <strong class="project__title">
+                <span>fylo_page</span>
+                <a
+                  href="https://a7medpro.github.io/fylo-landing-page-with-two-column-layout-master/"
+                  class="more__details"
+                  target="_blank"
+                  >GitHub_Rebo <img src="brand/github.svg" alt="GitHub__icon"
+                /></a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <video width="358" height="240" controls poster="photo/Beho.jpg">
+                <source
+                  src="Video/Volunteer in Khorfkan.mp4"
+                  type="video/mp4"
+                />
+                <source src="video/Video1.oog" type="video/ogg" />
+              </video>
+            </div>
+            <div class="project__info">
+              <p class="project__data">Video__editing</p>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <img src="Project image/Rock Image.jpg" alt="QR Code" />
+            </div>
+            <div class="project__info">
+              <p class="project__data">Card_Component</p>
+              <strong class="project__title">
+                <span>Card</span>
+                <a
+                  href="https://a7medpro.github.io/Card_Component/"
+                  class="more__details"
+                  target="_blank"
+                  >GitHub_Rebo <img src="brand/github.svg" alt="GitHub__icon"
+                /></a>
+              </strong>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <video
+                width="358"
+                height="240"
+                controls
+                poster="photo/Volunteer.jpg"
+              >
+                <source
+                  src="Video/Volunteer in Khorfkan.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="video/Volunteer in Khorfkan.oog"
+                  type="video/ogg"
+                />
+              </video>
+            </div>
+            <div class="project__info">
+              <p class="project__data">
+                Volunteer for International Children's Day Down
+              </p>
+            </div>
+          </div>
+
+          <div class="project__card">
+            <div class="project__img">
+              <img src="Project image/huddle.jpg" alt="huddle" />
+            </div>
+            <div class="project__info">
+              <p class="project__data">huddle-landing-page</p>
+              <strong class="project__title">
+                <span>page</span>
+                <a
+                  href="https://a7medpro.github.io/huddle-landing-page-with-feature-blocks/"
+                  class="more__details"
+                  target="_blank"
+                  >GitHub_Rebo <img src="brand/github.svg" alt="GitHub__icon"
+                /></a>
+              </strong>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Project section -->
+
+      <!-- contact section -->
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Welcome to my website! As a solo web designer, I am passionate about
+            creating intuitive and visually stunning user interfaces. Trust me
+            to bring your vision to life with my skills and attention to detail.
+            Choose me for a seamless and personalized experience that will make
+            your website stand out. Let's work together and create something
+            amazing!
+          </p>
+
+          <a
+            href="mailto:contact@a7meed.com"
+            target="_blank"
+            class="contact__email"
+            >contact@a7meed.com</a
+          >
+
+          <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/ahmed.bhaa.777158"
+              target="_blank"
+              class="contact__social"
+              ><img src="brand/facebook.svg" alt="icon of facebook"
+            /></a>
+            <a
+              href="https://twitter.com/ahmsocialmedia"
+              target="_blank"
+              class="contact__social"
+              ><img src="brand/twitter.svg" alt="icon of twitter"
+            /></a>
+            <a
+              href="https://github.com/A7medPro"
+              target="_blank"
+              class="contact__social"
+              ><img src="brand/github.svg" alt="icon of github"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/ahmedbahaaeldin-ali/"
+              target="_blank"
+              class="contact__social"
+            >
+              <img src="brand/LinkedIn.svg" alt="icon of linkedin"
+            /></a>
+            <a
+              href="https://www.upwork.com/freelancers/~0142358be38f4b0db5"
+              target="_blank"
+              class="contact__social"
+            >
+              <img
+                src="brand/upwork.svg"
+                width="23rem"
+                height="23rem"
+                alt="icon of upwork"
+            /></a>
+            <a
+              href="https://www.fiverr.com/iahmadpro?up_rollout=true"
+              target="_blank"
+              class="contact__social"
+            >
+              <img src="brand/fiverr.svg" alt="icon of fiverr"
+            /></a>
+          </div>
+        </div>
+        <div class="contact__formcontact">
+          <h2 class="h2-heading">
+            let's work <br />
+            together😀
+          </h2>
+
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                name="Full Name"
+                required
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No."
+                name="Phone Number"
+                required
+              />
+            </div>
+
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="send message" />
+          </form>
+        </div>
+      </section>
+
+      <!-- end contact section -->
+
+      <!-- footer -->
+      <footer class="footer">&copy; 2023 design by AHMED BAHAAELDIN</footer>
+      <!-- end footer -->
+    </div>
+  </body>
+</html>
